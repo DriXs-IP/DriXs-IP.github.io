@@ -1330,3 +1330,342 @@ background-size: 30px 30px, 50px 50px;
 .all-photo-item:hover img {
   transform: scale(1.05);
 }
+
+
+
+@media (max-width: 768px) {
+
+  .container {
+    padding: 30px 15px;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+
+  .hero-section {
+    height: 70vh;
+    min-height: 500px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+  }
+
+  .hero-overlay .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-quote {
+    font-size: 0.9rem;
+    padding: 0 15px;
+  }
+
+  .scroll-btn {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+
+ 
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .stat-item {
+    padding: 20px;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+
+  .details-panel {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .details-header {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .details-header h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    order: -1;
+  }
+
+  .header-buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .expand-btn {
+    padding: 6px 15px;
+    font-size: 0.85rem;
+    height: 38px;
+  }
+
+  .close-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+
+  .details-body {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-height: 70vh;
+  }
+
+  .image-container {
+    text-align: center;
+  }
+
+  #point-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #point-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+
+  .fullscreen-modal-content {
+    padding: 20px;
+    width: 95%;
+  }
+
+  .fullscreen-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .fullscreen-body {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .fullscreen-text {
+    max-height: 40vh;
+    font-size: 1rem;
+    padding-right: 0;
+  }
+
+  .fullscreen-gallery {
+    gap: 15px;
+    padding: 10px 10px 20px;
+    max-height: 50vh;
+  }
+
+  .gallery-item {
+    width: 220px;
+    height: 280px;
+  }
+
+ 
+  .biography-section {
+    padding: 40px 0;
+  }
+
+  .content-narrow {
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 0 15px;
+  }
+
+  figure {
+    margin: 30px 0;
+  }
+
+
+  .quotes-section {
+    padding: 40px 20px;
+    margin: 40px 0;
+  }
+
+  .quotes-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .quotes-section blockquote {
+    padding: 25px 20px;
+  }
+
+  .quotes-section blockquote::before {
+    font-size: 3rem;
+    top: -5px;
+    left: 10px;
+  }
+
+
+  .detailed-history {
+    padding: 30px 20px;
+    margin: 40px 0;
+  }
+
+  .stage-card summary {
+    padding: 18px 25px;
+    font-size: 1.3rem;
+  }
+
+  .stage-card summary::after {
+    font-size: 1.8rem;
+    right: 20px;
+  }
+
+  .stage-content {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+
+  .timeline-section {
+    padding: 40px 20px !important;
+  }
+
+  .timeline-container {
+    gap: 15px;
+    padding: 20px 10px;
+  }
+
+  .timeline-item {
+    flex: 0 0 280px;
+  }
+
+  .timeline-item h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .timeline-item p {
+    font-size: 0.9rem !important;
+  }
+
+
+  .facts-deck-section {
+    padding: 50px 20px;
+  }
+
+  .facts-deck-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .facts-deck-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cards-deck {
+    position: relative;
+    height: auto;
+    min-height: 380px;
+    perspective: none;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .fact-card {
+    position: relative;
+    width: 90%;
+    max-width: 320px;
+    height: 360px;
+    margin: 0 auto;
+    transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transition: all 0.3s ease;
+  }
+
+
+  .cards-deck .fact-card {
+    display: none;
+  }
+  .cards-deck .fact-card.active-mobile {
+    display: flex;
+  }
+
+  .fact-detail-panel {
+    padding: 30px 25px;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  .fact-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .fact-description {
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 20px;
+  }
+
+  .deck-controls {
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .deck-btn {
+    padding: 10px 25px;
+    font-size: 0.9rem;
+  }
+
+
+  .all-photos-section {
+    padding: 50px 20px;
+  }
+
+  .all-photos-section h2 {
+    font-size: 2rem;
+  }
+
+  .all-photos-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  .lightbox-img {
+    max-width: 95%;
+  }
+
+  .lightbox-close {
+    top: 15px;
+    right: 20px;
+    font-size: 36px;
+  }
+
+  .site-footer {
+    padding: 30px 15px;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .main-content-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  img, figure img, #point-img, .gallery-item img, .all-photo-item img {
+    max-width: 100%;
+    height: auto;
+  }
+}
