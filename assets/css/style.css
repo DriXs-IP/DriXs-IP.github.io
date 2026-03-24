@@ -1,4 +1,16 @@
-/* assets/css/style.css */
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.animate-on-scroll {
+    backface-visibility: hidden; 
+    will-change: transform, opacity; 
+}
+
 :root {
   --primary-ink: #3e2723;
   --accent-gold: #a1887f;
