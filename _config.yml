@@ -1,0 +1,14 @@
+# _config.yml
+title: Путь Ивана Сытина
+description: Интерактивный маршрут по местам великого книгоиздателя.
+baseurl: ""
+url: ""
+include: [assets, _includes]
+markdown: kramdown
+theme: minima
+encoding: utf-8
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache
+  - node_modules

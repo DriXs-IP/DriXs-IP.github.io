@@ -1,0 +1,50 @@
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Книга жизни: Путь Ивана Сытина</title>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=f335e861-492a-410d-b7d3-b8ba6e0931b2" type="text/javascript"></script>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+{% include header.html %}
+
+<div class="main-content-wrapper">
+  <main>
+    {% include stats.html %}
+    {% include map-module.html %}
+    <section class="biography-section">
+      <div class="content-narrow">
+        {% include locations.html %}
+      </div>
+    </section>
+    
+    {% include facts.html %}
+
+   
+    {% include all-photos.html %}
+  </main>
+</div>
+
+{% include footer.html %}
+
+
+<script src="{{ '/assets/js/fun-facts.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/map-logic.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
+
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="Увеличенное изображение">
+</div>
+
+</body>
+</html>

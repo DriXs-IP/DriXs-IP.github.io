@@ -1,0 +1,14 @@
+<div class="all-photos-section">
+  <h2>Галерея всех фотографий</h2>
+  <div class="all-photos-grid">
+    {% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/images/'" %}
+    {% for image in images %}
+      {% assign ext = image.extname | downcase %}
+      {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.gif' %}
+        <div class="all-photo-item">
+          <img src="{{ image.path | relative_url }}" alt="Фото из коллекции">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
