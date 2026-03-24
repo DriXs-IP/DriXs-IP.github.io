@@ -2,7 +2,7 @@
 title: Путь Ивана Сытина
 description: Интерактивный маршрут по местам великого книгоиздателя.
 baseurl: ""
-url: ""
+url: "https://DriXs-IP.github.io"
 include: [assets, _includes]
 markdown: kramdown
 theme: minima
@@ -12,3 +12,5 @@ exclude:
   - Gemfile.lock
   - .jekyll-cache
   - node_modules
+  - .venv
+  - pyvenv.cfg
