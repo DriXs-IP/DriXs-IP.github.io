@@ -30,12 +30,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 1300px) {
-  .main-content-wrapper {
-    max-width: 100%;
-    box-shadow: none;
-  }
-}
 
 /* ===== HERO СЕКЦИЯ ===== */
 .hero-section {
@@ -172,37 +166,6 @@ body {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-
-@media (max-width: 768px) {
-  .hero-section {
-    height: 80vh;
-    min-height: 500px;
-  }
-  .hero-overlay h1 {
-    font-size: 3.2rem;
-    letter-spacing: 4px;
-  }
-  .hero-overlay .subtitle {
-    font-size: 1.1rem;
-    padding: 0 15px;
-  }
-  .hero-quote {
-    font-size: 1rem;
-    padding: 0 15px;
-  }
-  .hero-quote-author {
-    font-size: 0.9rem;
-  }
-  .scroll-btn {
-    padding: 12px 25px;
-    font-size: 1rem;
-  }
-  .scroll-indicator {
-    bottom: 20px;
-    font-size: 1.8rem;
   }
 }
 
@@ -577,62 +540,7 @@ h2::after {
 }
 
 
-@media (max-width: 768px) {
-  .fullscreen-body {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  .fullscreen-text {
-    max-height: 40vh;
-  }
-  .fullscreen-gallery {
-    max-height: 40vh;
-  }
-  
-  .details-header {
-    padding: 15px 20px;
-    flex-wrap: wrap;
-    min-height: auto;
-  }
-  
-  .details-header h3 {
-    font-size: 1.2rem;
-    width: 100%;
-    margin-bottom: 12px;
-    text-align: left;
-  }
-  
-  .header-buttons {
-    width: 100%;
-    justify-content: flex-end;
-  }
-  
-  .expand-btn {
-    padding: 6px 16px;
-    height: 38px;
-    font-size: 0.85rem;
-  }
-  
-  .close-btn {
-    width: 38px;
-    height: 38px;
-    font-size: 1rem;
-  }
-  
-  .details-body {
-    grid-template-columns: 1fr;
-    padding: 20px;
-    gap: 20px;
-  }
-  
-  #point-img {
-    height: 200px;
-  }
-  
-  #point-text {
-    font-size: 1rem;
-  }
-}
+
 
 
 /* ===== БИОГРАФИЯ ===== */
@@ -743,21 +651,7 @@ figcaption {
 }
 
 
-@media (max-width: 768px) {
-  .quotes-section {
-    padding: 40px 20px;
-  }
-  
-  .quotes-section blockquote {
-    padding: 25px 20px 20px;
-  }
-  
-  .quotes-section blockquote::before {
-    font-size: 4rem;
-    top: -5px;
-    left: 10px;
-  }
-}
+
 
 /* ===== ПОДРОБНАЯ ИСТОРИЯ ===== */
 .detailed-history {
@@ -941,33 +835,7 @@ figcaption {
 }
 
 
-@media (max-width: 768px) {
-  .detailed-history {
-    padding: 40px 20px;
-    border-radius: 30px;
-  }
-  .history-stages {
-    max-width: 100%;
-  }
-  .stage-card summary {
-    padding: 20px 25px;
-    font-size: 1.4rem;
-  }
-  .stage-card summary::after {
-    right: 25px;
-    font-size: 2rem;
-  }
-  .stage-content {
-    padding: 20px 25px 25px;
-    font-size: 1rem;
-  }
-  .timeline-section {
-    padding: 40px 20px !important;
-  }
-  .timeline-item {
-    flex: 0 0 300px;
-  }
-}
+
 
 /* ===== ФУТЕР ===== */
 .site-footer {
@@ -992,52 +860,9 @@ figcaption {
 
 .hidden { display: none !important; }
 
-/* ===== АДАПТАЦИЯ ДЛЯ МОБИЛЬНЫХ ===== */
-@media (max-width: 768px) {
-  .hero-section {
-    height: 70vh;
-    min-height: 400px;
-  }
-  .hero-overlay h1 {
-    font-size: 3rem;
-    letter-spacing: 4px;
-  }
-  .hero-overlay .subtitle {
-    font-size: 1rem;
-    padding: 0 15px;
-  }
-  .scroll-btn {
-    padding: 10px 20px;
-    font-size: 0.9rem;
-  }
-  .scroll-indicator {
-    bottom: 20px;
-    font-size: 1.5rem;
-  }
-  .stat-number {
-    font-size: 2.5rem;
-  }
-  .stat-label {
-    font-size: 1rem;
-  }
-  .details-body {
-    grid-template-columns: 1fr;
-  }
-}
 
-@media (max-width: 600px) {
-  .stage-card summary {
-    font-size: 1.2rem;
-    padding: 15px 40px 15px 15px;
-  }
-  .stage-card summary::after {
-    right: 15px;
-    font-size: 1.5rem;
-  }
-  .stage-content {
-    padding: 0 15px 15px 15px;
-  }
-}
+
+
 
 /* ===== ФАКТЫ ===== */
 .facts-deck-section {
@@ -1280,98 +1105,10 @@ background-size: 30px 30px, 50px 50px;
 }
 
 
-@media (max-width: 1300px) {
-  .facts-deck-container {
-    grid-template-columns: 1.2fr 1.2fr;
-    max-width: 1300px;
-  }
-  
-  .fact-detail-panel {
-    max-width: 600px;
-    padding: 45px 40px;
-  }
-}
 
-@media (max-width: 1200px) {
-  .facts-deck-container {
-    grid-template-columns: 1.1fr 1.2fr;
-    gap: 15px;
-  }
-  
-  .fact-detail-panel {
-    max-width: 550px;
-    padding: 40px 35px;
-  }
-  
-  .fact-title {
-    font-size: 2.2rem;
-  }
-}
 
-@media (max-width: 1024px) {
-  .facts-deck-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  
-  .cards-deck {
-    height: 400px;
-    justify-content: center;
-    padding-left: 0;
-  }
-  
-  .fact-card {
-    width: 240px;
-    height: 320px;
-  }
-  
-  .fact-card .card-title {
-    font-size: 1.6rem;
-  }
-  
-  .fact-detail-panel {
-    transform: translateY(0) translateX(0);
-    max-width: 100%;
-    padding: 45px 40px;
-  }
-}
 
-@media (max-width: 768px) {
-  .facts-deck-section {
-    padding: 60px 20px;
-  }
-  
-  .cards-deck {
-    height: 350px;
-  }
-  
-  .fact-card {
-    width: 200px;
-    height: 280px;
-  }
-  
-  .fact-card .card-title {
-    font-size: 1.4rem;
-  }
-  
-  .fact-title {
-    font-size: 2rem;
-  }
-  
-  .fact-description {
-    padding: 25px;
-    font-size: 1.15rem;
-  }
-  
-  .deck-controls {
-    justify-content: center;
-  }
-  
-  .deck-btn {
-    padding: 12px 30px;
-    font-size: 1rem;
-  }
-}
+
 
 
 /* ===== РАЗНЫЕ ТИПЫ АНИМАЦИЙ ===== */
@@ -1580,13 +1317,4 @@ background-size: 30px 30px, 50px 50px;
 }
 .all-photo-item:hover img {
   transform: scale(1.05);
-}
-@media (max-width: 768px) {
-  .all-photos-section {
-    padding: 50px 20px;
-  }
-  .all-photos-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
-  }
 }
