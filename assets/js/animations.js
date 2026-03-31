@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const sections = [
     { selector: '.stats-section', animation: 'animate-fade-up' },
+    { selector: '.route-description', animation: 'animate-fade-up' },
     { selector: '.map-wrapper', animation: 'animate-fade-left' },
     { selector: '.biography-section', animation: 'animate-scale' },
     { selector: '.quotes-section', animation: 'animate-blur' },
