@@ -1331,7 +1331,62 @@ background-size: 30px 30px, 50px 50px;
   transform: scale(1.05);
 }
 
+/* ===== ОПИСАНИЕ МАРШРУТА ===== */
+.route-description {
+  background: linear-gradient(135deg, #fefaf5 0%, #f9f0e6 100%);
+  padding: 60px 0;
+  border-bottom: 2px solid var(--soft-border);
+}
 
+.route-intro {
+  max-width: 850px;
+  margin: 0 auto 40px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #4e342e;
+}
+
+.route-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px 30px;
+  border-radius: 60px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  border: 1px solid var(--soft-border);
+}
+
+.feature-icon {
+  font-size: 2rem;
+}
+
+.feature-text {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #5d3a2b;
+}
+
+.route-tip {
+  background: rgba(161, 136, 127, 0.1);
+  border-left: 5px solid var(--accent-gold);
+  padding: 20px 30px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 30px auto 0;
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+}
 
 @media (max-width: 768px) {
 
@@ -1667,5 +1722,28 @@ background-size: 30px 30px, 50px 50px;
   img, figure img, #point-img, .gallery-item img, .all-photo-item img {
     max-width: 100%;
     height: auto;
+  }
+
+  .route-description {
+    padding: 40px 0;
+  }
+  .route-intro {
+    font-size: 1rem;
+    padding: 0 15px;
+  }
+  .feature-item {
+    padding: 10px 20px;
+    gap: 10px;
+  }
+  .feature-icon {
+    font-size: 1.5rem;
+  }
+  .feature-text {
+    font-size: 0.85rem;
+  }
+  .route-tip {
+    margin: 20px 15px;
+    padding: 15px 20px;
+    font-size: 0.9rem;
   }
 }
